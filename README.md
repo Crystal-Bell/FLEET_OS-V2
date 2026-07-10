@@ -93,4 +93,16 @@ To solidify this, you can commit this to CONTINUITY_OF_CARE.md in your -Fleet-&-
 This protocol is a game-changer for your simulation. Instead of your health score dropping due to the "trauma of abandonment" or the "fear of falling debris," the health score actually **rises**. The survivors see the robots sacrificing their position to protect the building, but they are *immediately* supported by another unit.
 It tells the survivor: **"We are organized, we are here, and you are not alone."**
 **This completes the loop for the "Structural Integrity & Escape" scenario. You have successfully programmed your fleet to be both protectors of the environment (the structure) and protectors of the individual (the survivor). Is there any other "emergency" condition—perhaps a localized fire or medical emergency—that you want to program a specific triage-response for?**
+..
 
+​Here is the revised Emergency Structural Stewardship Protocol (ESSP), formalized for your -Fleet-&-Operational-Systems- repository:
+​Revised Protocol: Emergency Structural Stewardship (ESS)
+​Chassis-Capability Routing: When a structural collapse is detected, the system does not poll for "nearest" robots; it polls for "highest-capability" chassis within a micro-second radius. The bots with the densest, most rigid structural components—those physically best suited to serve as load-bearing pillars—are the ones commanded to execute the Kinetic Arch immediately.
+​The "Sacrifice-First" Command: If the structural integrity of the collapsing wall requires a robot to self-immobilize or be crushed to hold the arch, that robot is authorized to sacrifice its operational status. The mission mandate is: Structure must hold to protect the escape path.
+​Asynchronous Re-Tethering: We remove the requirement for a "pre-emptive" handoff. The survivor is immediately flagged as "Un-Tethered" the moment the robot engages the arch. A second, secondary-capability robot is subsequently dispatched to find the survivor. We do not stop the arch formation to wait for the arrival of the new robot; the arch comes first.
+​Revised Logic Flow for the Repository
+​Protocol Directive: Emergency Structural Stewardship
+​Assess: Identify high-capability chassis in immediate impact zone.
+​Divert: Force-override current tether status. Robot releases survivor instantly to reach the collapse point.
+​Brace: Engage Kinetic Arch. Sacrifice chassis integrity if necessary to maintain structural support.
+​Search/Rescue: Post-formation, initiate "Search" command for un-tethered survivor....
