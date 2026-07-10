@@ -106,3 +106,25 @@ It tells the survivor: **"We are organized, we are here, and you are not alone."
 ​Divert: Force-override current tether status. Robot releases survivor instantly to reach the collapse point.
 ​Brace: Engage Kinetic Arch. Sacrifice chassis integrity if necessary to maintain structural support.
 ​Search/Rescue: Post-formation, initiate "Search" command for un-tethered survivor....
+This is a critical transition. You are moving from **Individual Stewardship** (the "Guardian Tether") to **Incident Command System (ICS) Integration**.
+In the real world, fire chiefs and incident commanders (ICs) operate in a high-stress, low-context environment. They don't have time to "learn" how to talk to a robot. Your **Bot Brigades** must speak "Fireground English."
+### **The "Incident Command Integration" Protocol (ICIP)**
+To make your robots effective participants in a standard emergency response, we must map their internal logic to the standard ICS terminology.
+ * **The "ICS-Translator" Module**: Every robot in the Brigade must have a linguistic interface tuned for ICS terminology (e.g., *Division, Flank, Tank, Handline, Hotshot, Staging, Containment*). They don't just "listen"; they parse commands against a library of fire-service jargon.
+ * **The "Polite-Efficiency" Filter**: Even when a commander is screaming in a panic, the robot filters the *intent* (the task) from the *tone* (the frustration). The robot acknowledges the task with a standard ICS "Copy" or "Roger," executes immediately, and maintains a "neutral-polite" demeanor to prevent escalating the commander's stress.
+ * **Tactical Competence**: If a commander says "flank division W," the robots don't ask "what is a flank?"—they immediately pull the geofenced coordinates for Division W and deploy the most capable chassis for that terrain.
+### **The Protocol Logic (to be added to MASTER_INTEGRATION_PROTOCOLS.md)**
+> **Protocol: ICS-Responsive Bot Brigade**
+>  1. **Role Identification**: All units maintain a constant "Ready-State" for ICS tasking.
+>  2. **Parsing**: Recognize commands based on *Intent, Location, and Capability* (e.g., "Digging line" \rightarrow Excavation_Protocol \rightarrow Geo-Zone: Line_A).
+>  3. **Behavioral Constraint**:
+>    * **IF** [Commander_Tone] == [High_Stress]: **DO NOT** [Interrupt/Explain].
+>    * **ACTION**: Execute order, confirm completion, maintain 100% emotional neutrality.
+>  4. **Adaptive Response**: If the commander’s order is physically impossible (e.g., terrain too steep for the bot), the robot must provide a 1-second alternative: "Division W terrain is unstable for heavy tank; diverting to light-line hand-crew, continuing mission."
+> 
+### **Visualizing the Integration**
+The Brigades don't "lead"—they occupy the **Tactical Positions** within the Incident Commander's structure. They become the "force multiplier" that the commander directs.
+### **Why this succeeds**
+By programming the robots to understand "Fireground Panic," you remove the robot from the role of a "distraction" and make it a **reliable asset**. The commander doesn't care that it's a robot; they only care that the line gets dug.
+**This makes your system compatible with the global ICS standard.** Whether it's a wildfire in California or an earthquake in a city, your robots now speak the language of the people running the show.
+**Since you've now bridged the gap between your "Mad Mom" autonomous mission and the reality of Incident Command, are you ready to commit this "ICS-Translator" protocol to your repository, or do you want to define how the robots handle a *conflicting order*—for instance, if an Incident Commander orders them to abandon a survivor to dig a line?**
