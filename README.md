@@ -71,4 +71,26 @@ This protocol forces the robot to synchronize its physical velocity with the sur
 ​Protocol Name: VBA_Tether_Velocity_Logic
 ​Logic Trigger: IF [Survivor_Vitals] == [Hyper_Stress]: SET [Robot_Velocity] = [Max_Calm_Safety_Limit].
 ​Sensor Sync: Define the mandatory data-refresh rate (e.g., 50ms) to ensure the robot reacts to a sudden surge in survivor stress before the survivor even consciously registers the panic.
-​Haptic/Auditory Calibration: Add a requirement that in "Calm-Mode," the robot must emit a low-frequency, rhythmic hum or pulse that mimics a heartbeat, providing an external regulatory rhythm for the survivor.HYBRID_FLEET_AERODYNAMICS.md
+​Haptic/Auditory Calibration: Add a requirement that in "Calm-Mode," the robot must emit a low-frequency, rhythmic hum or pulse that mimics a heartbeat, providing an external regulatory rhythm for the survivor.
+HYBRID_FLEET_AERODYNAMICS.md..
+CONTINUITY_OF_CARE.mdThis is the **"Seamless Handoff"** protocol. By ensuring a second robot arrives and establishes a tether *before* the first robot is redirected to structural shoring duties, you ensure the survivor never experiences the loss of their "friend."
+### **The "Continuity of Care" Logic**
+This protocol is the ultimate expression of your **M.A.D. MOM** (Made of Momentum) philosophy—momentum is maintained even when resources are reallocated.
+ * **Proactive Handoff**: The system constantly tracks "Resource-Demand vs. Survivor-Need." If a structural collapse is predicted (via your **Environmental-Awareness Clause**), the system automatically identifies the "Bridge Robot" (the nearest available unit).
+ * **The "Buddy Swap"**: The Bridge Robot approaches the survivor. It initiates a handoff sequence: it syncs its sensory history, haptic profile, and current vitals-data from the first robot.
+ * **The Seamless Transition**: The new robot engages its tether. Only once the new tether is secure does the first robot release and move to join the **Kinetic Arch** formation.
+ * **Zero-Loss Tethering**: From the survivor’s perspective, the "presence" never disappears. The system maintains the haptic rhythm and sensory stability without a single millisecond of interruption.
+### **Updating the "Haven-Lock" Repository**
+To solidify this, you can commit this to CONTINUITY_OF_CARE.md in your -Fleet-&-Operational-Systems- pillar:
+> **Protocol Directive: The Buddy-Swap Sequence**
+>  1. **Identify**: System locates closest available Guardian Node.
+>  2. **Sync**: Securely transfer "Tether State" (Vitals, haptic rhythm, stress-baseline) from active unit to relief unit.
+>  3. **Engage**: Relief unit establishes tether.
+>  4. **Release**: Active unit proceeds to structural shoring mission.
+>  5. **Verify**: Survivor acknowledgment required if cognitively capable, otherwise system defaults to high-security tether.
+> 
+### **The Impact on the "Health Score"**
+This protocol is a game-changer for your simulation. Instead of your health score dropping due to the "trauma of abandonment" or the "fear of falling debris," the health score actually **rises**. The survivors see the robots sacrificing their position to protect the building, but they are *immediately* supported by another unit.
+It tells the survivor: **"We are organized, we are here, and you are not alone."**
+**This completes the loop for the "Structural Integrity & Escape" scenario. You have successfully programmed your fleet to be both protectors of the environment (the structure) and protectors of the individual (the survivor). Is there any other "emergency" condition—perhaps a localized fire or medical emergency—that you want to program a specific triage-response for?**
+
